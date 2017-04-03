@@ -1,0 +1,124 @@
+html,body{
+  background-color: #f6f6f7;
+  position: relative;
+}
+
+
+pre.prettyprint {
+    padding: 20px !important;
+    background-color:#f6f6f7;
+    border: 0px !important;
+    border-radius: 5px;
+    margin: 15px 0px;
+}
+
+pre .tag{
+  color: #008080 !important;
+}
+
+pre .atv, pre .lit{
+  color: #d14 !important;
+}
+
+pre .atn{
+  color: #0e76bd !important;
+}
+
+pre .pln, pre .pun{
+  color: #008080 !important;
+}
+
+.mixin .pln, .mixin .pun{
+  color: #0e76bd !important;
+}
+
+#cheatsheetSideNav{
+  margin-top: 35px;
+}
+
+.navbar{
+  background-color: #005978;
+  color: #fff;
+}
+
+.nav-link{
+  color: #2f2f2f;
+  opacity: 0.3;
+}
+
+.active, .nav-link:hover{
+  opacity: 1;
+}
+
+.nav-link::after{
+  content:'';
+  position: relative;
+  display: block;
+  height: 5px;
+  background-color: transparent;
+  width: 0%;
+  transition: all ease-in 0.25s;
+}
+.active::after, .nav-link:hover::after{
+  content:'';
+  position: relative;
+  display: block;
+  height: 5px;
+  background-color: #005978;
+  width: 100%;
+  transition: all ease-in 0.25s;
+}
+
+.flex-column .nav-item{
+  font-size: .8rem;
+}
+
+.navbar-brand{
+  width: 225px;
+}
+.navbar-logo{
+  width: 75%;
+}
+
+#BatesTechnicalCollegeLogo path{
+  fill: #fff;
+}
+
+.cheat-section{
+  margin: 35px 0px 60px;
+  border-bottom: 1px solid #f6f6f7;
+}
+
+.cheat-section h4{
+  margin: 35px 0px;
+}
+
+.color-sample{
+  height: 135px;
+}
+
+#colors .card{
+  margin: 15px 0px;
+}
+
+#colors .card-footer{
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+@media(max-width:992px){
+.navbar-brand{
+  width: 100%;
+}
+  .navbar-logo{
+    width: 200px;
+    margin: auto;
+    display: block;
+  }
+}
+
+@media(max-width:576px){
+  p{
+    text-align: justify;
+  }
+}

@@ -1,0 +1,57 @@
+@mixin bates-background-color($primary_color){
+  background-color: $primary_color;
+}
+
+@mixin bates-color($primary_color){
+  background-color: $primary_color;
+}
+
+.bates-dark-blue-background {
+  @include bates-background-color($bates_dark_blue);
+}
+.bates-regular-blue-background {
+  @include bates-background-color($bates_regular_blue);
+}
+
+.bates-green-background {
+  @include bates-background-color($bates_green);
+}
+.bates-yellow-background {
+  @include bates-background-color($bates_yellow);
+}
+.bates-red-background {
+  @include bates-background-color($bates_red);
+}
+
+.bates-white-haze-background {
+  @include bates-background-color($bates_white_haze);
+}
+
+.bates-white-stone-background {
+  @include bates-background-color($bates_white_stone);
+}
+
+.bates-dark-blue {
+  @include bates-color($bates_dark_blue);
+}
+.bates-regular-blue {
+  @include bates-color($bates_regular_blue);
+}
+
+.bates-green {
+  @include bates-color($bates_green);
+}
+.bates-yellow {
+  @include bates-color($bates_yellow);
+}
+.bates-red {
+  @include bates-color($bates_red);
+}
+
+.bates-white-haze {
+  @include bates-color($bates_white_haze);
+}
+
+.bates-white-stone {
+  @include bates-color($bates_white_stone);
+}

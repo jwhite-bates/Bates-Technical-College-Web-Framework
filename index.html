@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bates Technical College Web Brand Guidelines</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto:400,400i" rel="stylesheet">
+    <link rel = "stylesheet" type = "text/css" href="css/bootstrap.min.css"/>
+    <link rel = "stylesheet" type = "text/css" href="style.css"/>
+    <link rel = "stylesheet" type = "text/css" href="css/app.css"/>
+  </head>
+  <body data-spy="scroll" data-target="#cheatsheetSideNav">
+    <nav class="navbar navbar-toggleable-md">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <object type="image/svg+xml" data="img/BatesTechnicalCollege.svg" class="navbar-logo">
+            Bates Technical College <!-- fallback image in CSS -->
+        </object>
+      </a>
+    </nav>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1>Web Framework</h1>
+        <p class="lead">This page is to assist in the production and branding of Bates Technical College websites.</p>
+      </div>
+    </div>
+    <div class="container bates-white-stone-background">
+      <div class="row">
+        <div class="col-xs-12 col-sm-2">
+          <ul id="cheatsheetSideNav" class="nav flex-column sticky-top">
+            <li class="nav-item">
+              <a class="nav-link" href="#bootstrap">Bootstrap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#colors">Colors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#buttons">Buttons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#imgHoverMod">Hover Module</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-10">
+          <div id="bootstrap" class="cheat-section">
+            <h3>Currently, the framework of choice is Twitter Bootstrap.</h3>
+            <p>Bootstrap supports millions of websites across the web. The Bootstrap framework provides fast scaffolding for designs and a tested grid layout for mobile first design. Bates uses Bootstrap to ensure that our websites are meeting modern accessibility standards and reaching as many students and partners as possible.</p>
+            <p>To download the latest version of Bootstrap and read the Bootstrap documentation, visit the <a target="_blank"  href="http://getbootstrap.com/" alt="Twitter Bootstrap Home Page">Bootstrap</a> website.</p>
+          </div>
+            <div id="colors" class="cheat-section">
+              <h3>Bates Technical College typically has seven colors.</h3>
+              <div class="row">
+                <div class="card-deck">
+                  <div class="col-sm-4 col-md-3">
+                    <div class="card">
+                      <div class="card-img-top bates-dark-blue-background color-sample"></div>
+                      <div class="card-block">
+                        <p class="card-text">Bates Dark Blue</p>
+                      </div>
+                      <div class="card-footer">
+                        #00374e
+                      </div>
+                    </div>
+                  </div><!-- End of card -->
+                  <div class="col-sm-4 col-md-3">
+                    <div class="card">
+                      <div class="card-img-top bates-regular-blue-background color-sample"></div>
+                      <div class="card-block">
+                        <p class="card-text">Bates Regular Blue</p>
+                      </div>
+                      <div class="card-footer">
+                        #005978
+                      </div>
+                    </div>
+                  </div> <!-- End of card -->
+                  <div class="col-sm-4 col-md-3">
+                    <div class="card">
+                      <div class="card-img-top bates-green-background color-sample"></div>
+                      <div class="card-block">
+                        <p class="card-text">Bates Green</p>
+                      </div>
+                      <div class="card-footer">
+                        #56a964
+                      </div>
+                    </div>
+                  </div> <!-- End of card -->
+                  <div class="col-sm-4 col-md-3">
+                    <div class="card">
+                      <div class="card-img-top bates-yellow-background color-sample"></div>
+                      <div class="card-block">
+                        <p class="card-text">Bates Yellow</p>
+                      </div>
+                      <div class="card-footer">
+                        #ffcf3a
+                      </div>
+                    </div>
+                  </div> <!-- End of card -->
+                  <div class="col-sm-4 col-md-3">
+                    <div class="card">
+                      <div class="card-img-top bates-red-background color-sample"></div>
+                      <div class="card-block">
+                        <p class="card-text">Bates Red</p>
+                      </div>
+                      <div class="card-footer">
+                        #9e2120
+                      </div>
+                    </div>
+                  </div> <!-- End of card -->
+                  <div class="col-sm-4 col-md-3">
+                    <div class="card">
+                      <div class="card-img-top bates-white-haze-background color-sample"></div>
+                      <div class="card-block">
+                        <p class="card-text">Bates White Haze</p>
+                      </div>
+                      <div class="card-footer">
+                        #f6f6f7
+                      </div>
+                    </div>
+                  </div> <!-- End of card -->
+                  <div class="col-sm-4 col-md-3">
+                    <div class="card">
+                      <div class="card-img-top bates-white-stone-background color-sample"></div>
+                      <div class="card-block">
+                        <p class="card-text">Bates White Stone</p>
+                      </div>
+                      <div class="card-footer">
+                        #fbfbfc
+                      </div>
+                    </div>
+                  </div> <!-- End of card -->
+                </div>
+              </div>
+              <p>
+                To quickly use one of the color samples as a background color, add one of the following classes.
+              </p>
+<pre class="prettyprint">
+  &lt;div class="bates-dark-blue-background"&gt;...&lt;/div&gt;
+  &lt;div class="bates-regular-blue-background"&gt;...&lt;/div&gt;
+  &lt;div class="bates-green-background"&gt;...&lt;/div&gt;
+  &lt;div class="bates-yellow-background"&gt;...&lt;/div&gt;
+  &lt;div class="bates-red-background"&gt;...&lt;/div&gt;
+  &lt;div class="bates-white-haze-background"&gt;...&lt;/div&gt;
+  &lt;div class="bates-white-stone-background"&gt;...&lt;/div&gt;
+</pre>
+              <p>
+                To quickly use one of the color samples as a font color, add one of the following classes.
+              </p>
+<pre class="prettyprint">
+  &lt;p class="bates-dark-blue-color"&gt;...&lt;/p&gt;
+  &lt;p class="bates-regular-blue-color"&gt;...&lt;/p&gt;
+  &lt;p class="bates-green-color"&gt;...&lt;/p&gt;
+  &lt;p class="bates-yellow-color"&gt;...&lt;/p&gt;
+  &lt;p class="bates-red-color"&gt;...&lt;/p&gt;
+  &lt;p class="bates-white-haze-color"&gt;...&lt;/p&gt;
+  &lt;p class="bates-white-stone-color"&gt;...&lt;/p&gt;
+</pre>
+            </div>
+            <div id="buttons" class="cheat-section">
+              <h3>These are the Bates Technical College Buttons</h3>
+              <p>
+                To style buttons properly, inspect element to find the correct classes to use.
+              </p>
+              <button class="button bates-button bates-dark-blue-button">Bates Dark Blue Button</button>
+              <button class="button bates-button bates-regular-blue-button">Bates Regular Blue Button</button>
+              <button class="button bates-button bates-green-button">Bates Green Button</button>
+              <button class="button bates-button bates-yellow-button">Bates Yellow Button</button>
+              <button class="button bates-button bates-red-button">Bates Red Button</button>
+
+              <p>
+                Below is an example of the button html.
+              </p>
+
+              <pre class="prettyprint"> &lt;button class="button bates-button bates-dark-blue-button"&gt;...&lt;/button&gt; </pre>
+
+              <h4>To create hollow buttons, add a .hollow class to the button</h4>
+              <button class="hollow button bates-button bates-dark-blue-button">Bates Dark Blue Button</button>
+              <button class="hollow button bates-button bates-regular-blue-button">Bates Regular Blue Button</button>
+              <button class="hollow button bates-button bates-green-button">Bates Green Button</button>
+              <button class="hollow button bates-button bates-yellow-button">Bates Yellow Button</button>
+              <button class="hollow button bates-button bates-red-button">Bates Red Button</button>
+
+              <pre class="prettyprint"> &lt;button class="button hollow bates-button bates-dark-blue-button"&gt;...&lt;/button&gt;</pre>
+
+
+              <h4>To create rounded buttons, add a .bates-rounded class to the button</h4>
+              <button class="bates-rounded button bates-button bates-dark-blue-button">Bates Dark Blue Button</button>
+              <button class="bates-rounded button bates-button bates-regular-blue-button">Bates Regular Blue Button</button>
+              <button class="bates-rounded button bates-button bates-green-button">Bates Green Button</button>
+              <button class="bates-rounded button bates-button bates-yellow-button">Bates Yellow Button</button>
+              <button class="bates-rounded button bates-button bates-red-button">Bates Red Button</button>
+
+              <pre class="prettyprint"> &lt;button class="bates-rounded button bates-button bates-dark-blue-button"&gt;...&lt;/button&gt;</pre>
+            </div>
+            <div id="imgHoverMod" class="cheat-section">
+              <h3>Sometimes a standard link will not do. We can use an Image Module</h3>
+              <div class="img-hover-mod clearfix">
+                <div class="row">
+                  <div class="col-xs-12 col-sm-6 col-md-4">
+                    <figure class="figure fig-hover bates-dark-blue-background">
+                      <div class="figure-img"style="background-image:url('img/Space-Desktop.jpg')" alt="Title of Mod"></div>
+                      <figcaption class="figure-caption">
+                        <h4>Learn About Space</h4>
+                        <button class="button bates-button bates-green-button">
+                          View More
+                        </button>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-4">
+                    <figure class="figure fig-hover bates-dark-blue-background">
+                      <div class="figure-img"style="background-image:url('img/Space-Desktop.jpg')" alt="Title of Mod"></div>
+                      <figcaption class="figure-caption">
+                        <h4>Learn About Space 2</h4>
+                        <button class="button bates-button bates-green-button">
+                          View More
+                        </button>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-4">
+                    <figure class="figure fig-hover bates-dark-blue-background">
+                      <div class="figure-img"style="background-image:url('img/Space-Desktop.jpg')" alt="Title of Mod"></div>
+                      <figcaption class="figure-caption">
+                        <h4>Learn About Space 3</h4>
+                        <button class="button bates-button bates-green-button">
+                          View More
+                        </button>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+
+              </div> <!-- End img-hover-mod -->
+<pre class="prettyprint">
+&lt;div class="img-hover-mod clearfix"&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="col-xs-12 col-sm-6 col-md-4"&gt; &lt;!-- Change columns based on design need --&gt;
+      &lt;figure class="figure fig-hover bates-dark-blue-background"&gt;
+        &lt;div class="figure-img"style="background-image:url('...')" alt="..."&gt;&lt;/div&gt;
+        &lt;figcaption class="figure-caption"&gt;
+          &lt;h4&gt;...&lt;/h4&gt;
+          &lt;button class="button bates-button bates-green-button"&gt;
+            ...
+          &lt;/button&gt;
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt; &lt;!-- Ends bootstrap columns --&gt;
+  &lt;/div&gt; &lt;!-- Ends row --&gt;
+&lt;/div&gt; &lt;!-- Ends img hover mod --&gt;
+</pre>
+              </p>
+              <p>
+                To change the height of the modules, change the pixel amount in the style.scss file.
+              </p>
+              <pre class="prettyprint lang-css">.img-hover-mod{<br />  @include <span class="mixin">bates-hover-mod</span>(225px);<br />}</pre>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"></script>
+<!-- this will include every plugin and utility required by Foundation -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+  </body>
+</html>
