@@ -23,3 +23,7 @@ $bates_black: #2f2f2f;
 .img-hover-mod{
   @include bates-hover-mod(225px);
 }
+
+@-ms-viewport{
+  width: device-width;
+}

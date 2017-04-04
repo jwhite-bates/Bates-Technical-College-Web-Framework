@@ -248,4 +248,7 @@ h3 {
       opacity: 0.55;
       transition: all ease-in 0.3s; }
 
+@-ms-viewport {
+  width: device-width; }
+
 /*# sourceMappingURL=style.css.map */
